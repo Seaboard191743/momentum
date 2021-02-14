@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="bgContainer">
+        </div>
+        <div class="content">
+            <header class="header">
+                <div class="dayData">
+                    <div class="dataBlock">
+                        <div class="todayData"></div>
+                        <div class = "cityData">
+                            <input type="text" class = "city" placeholder = "Your city">
+                        </div> 
+                    </div>
+                    <div class="weather-conditions"></div>
+                </div>
+                <button class="collection-btn">Collection</button>
+                <button class="collection-btn--s">c</button>
+                <div class="collection">
+                    <div class="slider">
+                        <div class="prev arrow">Prev</div>
+                        <div class="slide">
+                            <img class = "slide-image" src="assets/day/1.jpg" alt="image">
+                        </div>
+                        <div class="next arrow">Next</div>
+                    </div>
+                    <button class = "changeBg">change background</button>
+                </div>
+            </header>
+            <div class="clocks-container">
+                <div class="clocks">
+                    <span class ="hours"></span>
+                    <span class = "sep">:</span>
+                    <span class ="minutes"></span>
+                    <span class = "sep">:</span>
+                    <span class ="seconds"></span>
+                </div>
+                <div class="text-block">
+                    <div class="greeting-block">
+                        <span class="greeting"></span>
+                        <div class="nameField">
+                        </div>
+                    </div>
+                    <div class="goal-block">
+                        <span class="goalText">Your goal for today is</span>
+                        <div class="goalField">
+                            <input class = "goal" type="text" placeholder="Type a goal"> 
+                        </div>
+                    </div>
+                </div>
+                <div class="phrases-block">
+                    <p class="authorBlock">
+                       
+                    </p>
+                    <p class = "phrase"></p>
+                    <button class="changeQuote">change quote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src = "scripts.js"></script>
+</body>
+</html>
